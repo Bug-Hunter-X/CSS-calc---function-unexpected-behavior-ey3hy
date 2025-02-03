@@ -1,0 +1,8 @@
+The correct usage of `calc()` ensures accurate calculations.  Always include spaces around the operators (+, -, *, /) within the parentheses. For example:
+
+```css
+width: calc(100% - 10px);
+height: calc(50vh + 20px);
+```
+
+Failure to include these spaces may lead to unexpected rendering results or parsing errors.
